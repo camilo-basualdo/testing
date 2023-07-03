@@ -1,0 +1,8 @@
+do:
+  id: do.dev.v0
+  metrics: [accuracy]
+
+do.dev.v0:
+  class: evals.elsuite.basic.includes:Includes
+  args:
+    samples_jsonl: test_do_step_by_step/samples.jsonl

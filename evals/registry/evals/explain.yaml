@@ -1,0 +1,8 @@
+explain:
+  id: explain.dev.v0
+  metrics: [accuracy]
+
+explain.dev.v0:
+  class: evals.elsuite.basic.includes:Includes
+  args:
+    samples_jsonl: test_explain/samples.jsonl

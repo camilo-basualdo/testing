@@ -1,0 +1,8 @@
+versus:
+  id: versus.dev.v0
+  metrics: [accuracy]
+
+versus.dev.v0:
+  class: evals.elsuite.basic.includes:Includes
+  args:
+    samples_jsonl: versus/samples.jsonl
